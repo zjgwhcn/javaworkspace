@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 [[{"location":"D:\\javaworkspace\\FourClassObject","type":"PROJECT","hints":{"PROJECT_NAME":"FourClassObject"}},"ABSENT"],[{"location":"C:\\Program Files (x86)\\Java\\jdk1.8.0_131","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"],[{"location":"C:\\Program Files\\Java\\jre1.8.0_131","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]
+=======
+[[{"location":"D:\\javaworkspace\\FourClassObject","type":"PROJECT","hints":{"PROJECT_NAME":"FourClassObject"}},"ABSENT"],[{"location":"D:\\javaworkspace\\One","type":"PROJECT","hints":{"PROJECT_NAME":"One"}},"ABSENT"],[{"location":"C:\\Program Files\\Java\\jre1.8.0_131","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]
+>>>>>>> 14a37bf8f01a015ec6dc429ed714eb0a6e41aad5
