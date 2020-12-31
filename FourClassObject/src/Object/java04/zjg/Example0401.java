@@ -9,5 +9,7 @@ class Example0401 {
 		Example0401.y*= 2;
 		Example0401 ol=new Example0401(); //´´½¨ÊµÀýol
 		ol.x *=10;
+		System.out.println
+		
 	}
 }
