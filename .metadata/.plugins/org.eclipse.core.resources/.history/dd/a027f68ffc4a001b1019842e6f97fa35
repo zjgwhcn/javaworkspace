@@ -1,0 +1,10 @@
+package ZjgOne;
+import ZjgOne.MyStack1;
+public class ZjgOneMain {
+	int num;
+public static void main(int Num){
+	MyStack1 num= new MyStack1();
+	
+	num.pop();
+}	
+}
