@@ -9,11 +9,11 @@ class Example0401 {
 		Example0401.y*= 2;
 		Example0401 ol=new Example0401(); //创建实例ol
 		ol.x *=10;
-		System.out.println("ol.x="+ol.x);
-		System.out.println("ol.y="+ol.y);
+		System.out.println("ol.x"+ol.x);
+		System.out.println("ol.y"+ol.y);
 		
 		Example0401 o2=new Example0401(); //创建实例o2
-		System.out.println("o2.x="+o2.x);
-		System.out.println("o2.y="+o2.y);
+		System.out.println("o2.x"+o2.x);
+		System.out.println("o2.y"+o2.y);
 	}
 }
