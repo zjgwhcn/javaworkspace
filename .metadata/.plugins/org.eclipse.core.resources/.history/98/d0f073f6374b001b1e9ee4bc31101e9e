@@ -5,12 +5,12 @@ import java.util.Stack;
 public class MyStack1 
 {
 
-	private Stack<Integer> stackData;  //定义一个堆stackData
-	private Stack<Integer> stackMin;   //定义一个堆stackMin
+	private Stack<Integer> stackData;
+	private Stack<Integer> stackMin;
 		
 	public MyStack1()
 	{
-	this.stackData=new Stack<Integer>();  //堆实例
+	this.stackData=new Stack<Integer>();
 	this.stackMin=new Stack<Integer>();
 	}
 	
@@ -31,7 +31,7 @@ public class MyStack1
 	{
 	if (this.stackData.isEmpty())
 	{
-		throw new RuntimeException("Your stack is empty.");//异常显示内容
+		throw new RuntimeException("Your stack is empty.");
 	}
 	int value = this.stackData.pop();
 	if (value == this.getmin())
@@ -49,15 +49,14 @@ public class MyStack1
 		}
 		return this.stackMin.peek();
 	}
-	
 	public static void main(String[] args){
 		//创建对象，第六步
 		MyStack1 s=new MyStack1();
-		//s.newNum = 5;
-		//System.out.println("pop is"+s.pop());
+		//ff.newNum = 5;
+		//System.out.println("pop is"+ff.pop());
 		s.push(3);
         s.push(4);
-        s.push(0);
+        s.push(5);
         s.push(1);
         s.push(2);
         s.push(1);
