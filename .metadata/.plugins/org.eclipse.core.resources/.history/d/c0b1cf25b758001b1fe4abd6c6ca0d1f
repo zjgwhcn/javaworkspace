@@ -10,7 +10,7 @@ public class MyStack2 {
 		this.stackData=new Stack<Integer>();
 		this.stackMin=new  Stack<Integer>();
 	}
-	public int push(int newNum){
+	public void push(int newNum){
 		if(this.stackMin.isEmpty()){
 			this.stackMin.push(newNum);
 			
@@ -21,7 +21,7 @@ public class MyStack2 {
 			int newMin=this.stackMin.peek();
 			this.stackMin.push(newNum);
 		}
-		return this.stackData.push(newNum);
+		this.stackData.push(newNum);
 		
 	}
 	public int pop(){
@@ -39,14 +39,5 @@ public class MyStack2 {
 
 		}
 		return this.stackMin.peek();
-	}
-
-	public static void main (String[] args){
-		int newNum=5;
-		
-		MyStack2 Mystack= new MyStack2();
-		int Num=Mystack.push(newNum);
-		System.out.print("The push is"+Num);
-		
 	}
 }
